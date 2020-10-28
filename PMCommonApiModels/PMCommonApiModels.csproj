@@ -4,12 +4,13 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Shravan Jambukesan</Authors>
     <Company>Pseudo Markets</Company>
+    <Version>1.0.1</Version>
     <Description>Unified API request and response models</Description>
     <Copyright>(c) 2019 - 2020 Pseudo Markets</Copyright>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/pseudomarkets/PMCommonApiModels</PackageProjectUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageReleaseNotes>* Initial release</PackageReleaseNotes>
+    <PackageReleaseNotes>* Added new status messages</PackageReleaseNotes>
     <PackageTags>pseudo markets</PackageTags>
   </PropertyGroup>
 

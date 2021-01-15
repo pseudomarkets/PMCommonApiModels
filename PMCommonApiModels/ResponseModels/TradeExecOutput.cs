@@ -7,7 +7,15 @@ namespace PMCommonApiModels.ResponseModels
 {
     public class TradeExecOutput
     {
-        public string Status { get; set; }
+        public TradeStatusCodes StatusCode { get; set; }
+        public string StatusMessage { get; set; }
         public Orders Order { get; set; }
+    }
+
+    public enum TradeStatusCodes : int
+    {
+        ExecutionOk = 0,
+        ExecutionQueued = 1,
+        ExecutionError = -1
     }
 }

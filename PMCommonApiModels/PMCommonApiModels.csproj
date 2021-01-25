@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Shravan Jambukesan</Authors>
     <Company>Pseudo Markets</Company>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <Description>Unified API request and response models</Description>
     <Copyright>(c) 2019 - 2020 Pseudo Markets</Copyright>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>

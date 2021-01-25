@@ -6,7 +6,6 @@ namespace PMCommonApiModels.RequestModels
 {
     public class TradeExecInput
     {
-        public string Token { get; set; }
         public string Symbol { get; set; }
         public int Quantity { get; set; }
         public string Type { get; set; }

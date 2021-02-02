@@ -17,5 +17,6 @@ namespace PMCommonApiModels.ResponseModels
         public double previousClose { get; set; }
         public double change { get; set; }
         public double changePercentage { get; set; }
+        public string source { get; set; }
     }
 }
